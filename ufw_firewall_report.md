@@ -26,7 +26,7 @@ following configurations were applied:
 The firewall status was verified using the following command:
 
 ``` bash
-sudo ufw status
+sudo ufw status verbose
 ```
 
 The output confirms that UFW is active and enforcing the configured
