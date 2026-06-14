@@ -64,3 +64,13 @@ The firewall configuration successfully achieved the intended security
 objectives. The verification output confirms that only the necessary
 services are permitted while unnecessary inbound access is restricted,
 thereby improving the overall security posture of the Linux system.
+
+## 3. Output
+
+### ufw_configuration.sh
+
+![ufw_configuration.sh](task_2_ufw_1.png)
+
+### Result
+
+![Result](task_2_ufw_2.png)
