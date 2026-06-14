@@ -9,8 +9,7 @@ administrative access.
 
 ## Configuration Details
 
-Based on the firewall status shown in the verification screenshot, the
-following configurations were applied:
+The following configurations were applied:
 
 -   **Default Incoming Policy:** Deny all incoming connections.
 -   **Default Outgoing Policy:** Allow all outgoing connections.
@@ -32,14 +31,14 @@ sudo ufw status verbose
 The output confirms that UFW is active and enforcing the configured
 rules:
 
-  To            Action     From
-  ------------- ---------- ---------------
-  22/tcp        ALLOW IN   Anywhere
-  80/tcp        DENY IN    Anywhere
-  53/tcp        ALLOW IN   Anywhere
-  22/tcp (v6)   ALLOW IN   Anywhere (v6)
-  80/tcp (v6)   DENY IN    Anywhere (v6)
-  53/tcp (v6)   ALLOW IN   Anywhere (v6)
+  |To           | Action     |From|
+  |-------------|---------   |------------|
+  |22/tcp       | ALLOW IN   |Anywhere|
+  |80/tcp       | DENY IN    |Anywhere|
+  |53/tcp       | ALLOW IN   |Anywhere|
+  |22/tcp (v6)  | ALLOW IN   |Anywhere (v6)|
+  |80/tcp (v6)  | DENY IN    |Anywhere (v6)|
+  |53/tcp (v6)  | ALLOW IN   |Anywhere (v6)|
 
 Additionally, the screenshot indicates the following firewall settings:
 
