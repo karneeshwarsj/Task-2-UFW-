@@ -40,7 +40,7 @@ rules:
   |80/tcp (v6)  | DENY IN    |Anywhere (v6)|
   |53/tcp (v6)  | ALLOW IN   |Anywhere (v6)|
 
-Additionally, the screenshot indicates the following firewall settings:
+Firewall settings:
 
 -   Logging is enabled at the **low** level.
 -   The firewall is **active and enabled on system startup**.
